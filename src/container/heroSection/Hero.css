@@ -1,0 +1,180 @@
+.app__heroSection{
+    display: flex;
+    width: 100%;
+}
+
+.app__heroSection-contents{
+    width: 650px;
+}
+
+.app__heroSection-contents p{
+    padding-top: 35px;
+}
+
+.app__heroSection-contacts_findArea{
+    width: 511px;
+    height: 64px;
+
+    margin-top: 35px;
+
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(to right, #000,#000 )padding-box,
+                linear-gradient(to right, #6DDCFF,#7F60F9 )border-box;
+    border: 3px solid transparent;
+    border-radius: 60px;            
+}
+
+.search_icon{
+    margin-left: .85rem;
+    cursor: pointer;
+}
+
+.app__heroSection-contacts_findArea input{
+    font-family: var(--font-alt);
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #71717A;
+
+    border: none;
+    margin-left: .7rem;
+    padding: 0 5px;
+
+}
+
+.app__heroSection-contacts_findArea button{
+    font-family: var(--font-alt);
+    font-weight: 500;
+    padding: 16px;
+    width: 171px;
+    height: 50px;
+    
+    background: #FFFFFF;
+    border-radius: 60px;
+    margin-left: 77px;
+
+    cursor: pointer;
+
+
+}
+.app__heroSection-contacts_findArea button:hover{
+    color: #7F60F9;
+}
+
+.app__heroSection-contents .user{
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.app__heroSection-contacts_review{
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+
+.app__heroSection-contacts_review p{
+    position: absolute;
+    top: -32px;
+    left: 150px;
+
+    color: #FFF;
+}
+.app__heroSection-contacts_review p span{
+
+    color: #71717A;
+}
+
+.app__heroSection-img{
+  margin-left: 5rem;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    .headText {
+        font-size: 60px;
+        line-height: 70px;
+      }
+
+      .app__heroSection {
+        flex-direction: column;
+      }
+     
+      .app__heroSection-contacts_findArea {
+        width: 444px;
+      } 
+      .app__heroSection-contacts_findArea button {
+        width: 150px;
+        margin-left: 32px;
+      }
+      .app__heroSection-img {
+        margin-top: 5rem;
+      }
+}
+
+@media screen and (max-width: 650px) {
+    .headText {
+        font-size: 50px;
+        line-height: 50px;
+      }
+
+      .app__heroSection-contents {
+        width: 100%;
+      }
+
+      .section__padding {
+        padding: 4rem 1rem;
+      }
+      .search_icon {
+        margin-left: .85rem;
+        cursor: pointer;
+      }
+}
+
+@media screen and (max-width: 480px) {
+
+    .app__heroSection-contacts_findArea {
+      width: 350px;
+    }
+
+    .search_icon {
+        display: none;
+    }
+
+    .app__heroSection-contacts_findArea input {
+        margin-left: 5px;
+      }
+
+    .app__heroSection-contacts_findArea button {
+        width: 145px;
+        margin-left: -19px;
+    } 
+    .app__heroSection-img {
+        margin-right: 0;
+
+    }
+      .app__heroSection-img img {
+        width: 350px;
+        
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .app__navbar-trial {
+        display: none;
+    }
+}
+
+
+
+
